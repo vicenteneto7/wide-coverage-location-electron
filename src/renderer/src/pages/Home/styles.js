@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import PeopleImg from '../../assets/peoples.png'
 
 export const Container = styled.div`
     display: flex;
@@ -11,6 +12,7 @@ export const Section1 = styled.div`
     height: 5rem;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 `
 
 export const Button = styled.button`
@@ -54,6 +56,7 @@ export const Link = styled.a`
     font-size: 1.5rem;
     cursor: pointer;
     text-decoration: none;
+    margin-top: 1rem;
 
     &:hover{
         opacity: 0.8;
@@ -61,4 +64,8 @@ export const Link = styled.a`
     &:active{
         opacity: 0.6;
     }   
+`
+
+export const Img = styled.img`
+    margin-top: 2rem;
 `
