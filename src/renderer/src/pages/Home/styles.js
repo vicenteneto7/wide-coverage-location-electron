@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import PeopleImg from '../../assets/peoples.png'
 
 export const Container = styled.div`
     display: flex;
@@ -9,7 +8,7 @@ export const Container = styled.div`
 
 export const Section1 = styled.div`
     width: 100%;
-    height: 4rem;
+    height: 3.5rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -19,6 +18,9 @@ export const Button = styled.button`
     width: 7.6rem;
     height: 2.3rem;
     background-color: #4CB538;
+    box-shadow: 4px 9px 9px -6px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 4px 9px 9px -6px rgba(0,0,0,0.67);
+    -moz-box-shadow: 4px 9px 9px -6px rgba(0,0,0,0.67);
     color: white;
     border-radius: 0.6rem;
     border: none;
@@ -42,7 +44,7 @@ export const Section2 = styled.div`
 export const Title = styled.p`
     color: #161A49;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
     font-style: normal;
