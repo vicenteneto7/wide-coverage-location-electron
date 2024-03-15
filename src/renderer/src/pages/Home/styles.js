@@ -35,6 +35,7 @@ export const Section2 = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 `
 export const Title = styled.p`
     color: #161A49;
@@ -45,5 +46,19 @@ export const Title = styled.p`
 export const Text1 = styled.p`
     color: #4B505A;
     text-align: center;
-    font-size: 0.5rem;
+    font-size: 1rem;
+`
+export const Link = styled.a`
+    color: #6FBF44;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover{
+        opacity: 0.8;
+    }
+    &:active{
+        opacity: 0.6;
+    }   
 `
