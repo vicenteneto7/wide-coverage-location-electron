@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const Section1 = styled.div`
     width: 100%;
-    height: 5rem;
+    height: 4rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -44,11 +44,16 @@ export const Title = styled.p`
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
 `
 export const Text1 = styled.p`
     color: #4B505A;
     text-align: center;
     font-size: 1rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
 `
 export const Link = styled.a`
     color: #6FBF44;
@@ -57,6 +62,10 @@ export const Link = styled.a`
     cursor: pointer;
     text-decoration: none;
     margin-top: 1rem;
+
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
 
     &:hover{
         opacity: 0.8;
