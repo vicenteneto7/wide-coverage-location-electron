@@ -7,7 +7,7 @@ export const Container = styled.div`
 `
 
 export const Section1 = styled.div`
-    width: 100%;
+    width: 95%;
     height: 3.5rem;
     display: flex;
     justify-content: flex-end;
@@ -15,17 +15,21 @@ export const Section1 = styled.div`
 `
 
 export const Button = styled.button`
-    width: 7.6rem;
+    width: 6.3rem;
     height: 2.3rem;
     background-color: #4CB538;
-    box-shadow: 4px 9px 9px -6px rgba(0,0,0,0.67);
-    -webkit-box-shadow: 4px 9px 9px -6px rgba(0,0,0,0.67);
-    -moz-box-shadow: 4px 9px 9px -6px rgba(0,0,0,0.67);
+    box-shadow: 14px 15px 15px -12px rgba(0,0,0,0.49);
+    -webkit-box-shadow: 14px 15px 15px -12px rgba(0,0,0,0.49);
+    -moz-box-shadow: 14px 15px 15px -12px rgba(0,0,0,0.49);
     color: white;
-    border-radius: 0.6rem;
+    border-radius: 0.4rem;
     border: none;
     font-size: medium;
     cursor: pointer;
+
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    
 
     &:hover{
         opacity: 0.8;
